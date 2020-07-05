@@ -1,0 +1,66 @@
+body{
+    background-color: #FF7979;
+    background-image: url('bg-intro-desktop.png');
+    padding: 8% 16% 0% 16%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.rightseccol{
+    padding-top: 15%;
+}
+
+.h1-1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.pr-1{
+    line-height: 25px;
+    opacity: 0.8;
+}
+.pr-2{
+    color: hsl(246, 25%, 77%);
+    font-size: 10px;
+}
+#demo-1 , #demo-2 , #demo-3 , #demo-4{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.spa-1{
+    color: tomato;
+}
+.topbutt{
+ margin-bottom: 4%;
+}
+.butt{
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    font-size: 17px;
+}
+.butt:hover{
+    background-color: hsl(248, 32%, 52%);
+    color: white;
+}
+.butt-2{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    font-size: 15px;
+}
+.butt-2:hover{
+    background-color: hsl(154, 59%, 57%);
+    color: white;
+}
+.formgap{
+    margin-bottom: 5%;
+}
+
+.formdiv{
+    background-color: white;
+    padding: 8% 9% 2%;
+    border-radius: 3%;  
+    box-shadow: 1px 1px black;
+    text-align: center;
+    color:black;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  
+  <!-- google font link -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- css link -->
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="container-fluid">
+      <div class="row ">
+        <div class="col-12 col-sm-6 rightseccol">
+ <h1 class="h1-1">Learn to code by<br> watching others </h1>
+
+  <p class="pr-1">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+  but understanding how developers think is invaluable.</p> 
+</div>
+<div class="col-12 col-sm-6">
+  <div class="topbutt">
+    <button class="btn btn-lg btn-block butt">Try it free 7 days then $20/mo. thereafter</button>
+  </div>
+
+<div class="formdiv">
+  <form name="fvali" onsubmit="return submitValidate()">
+    <div class="form-group formgap">
+    <input type="text" class="form-control form-control-lg" name="fname" id="forfirstname" placeholder="First Name" onblur="firstValidate()">
+    <p id="demo-1" class=""></p>
+  </div>
+    
+    <div class="form-group formgap">
+      <input type="text" class="form-control form-control-lg" name="lname" id="forlastname" placeholder= "Last Name" onblur="lastValidate()">
+      <p id="demo-2" class= ""></p>
+    </div>
+  
+  <div class="form-group formgap">
+    <input type="email" class="form-control form-control-lg" name="elemail" id="foremail" placeholder="Email Address" onblur="emailValidate()">
+    <p id="demo-3" class="" ></p>
+  </div>
+  
+  <div class="form-group formgap">
+    <input type="password" class="form-control form-control-lg" name="pass" id="forpass" placeholder="Password" onblur="passValidate()">
+    <p id="demo-4" class=""></p>
+  </div>
+    
+    <div class="form-group ">
+      <button type="submit" class="btn btn-block btn-lg butt-2" id="submitbutt">CLAIM YOUR FREE TRAIL</button> 
+    </div>
+    <p class="pr-2">By clicking the button, you are agreeing to our <span class="spa-1">Terms and Services</span></p>
+    </div>
+    
+  </form>
+  </div>
+      </div>
+  
+</div>
+
+  </div>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by Frontend Mentor
+      Coded by Vishal G .
+    </p>
+  </footer>
+
+<!-- Jquery cdn (Bootstrap) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<script src="index.js"></script> 
+
+</body>
+</html>
